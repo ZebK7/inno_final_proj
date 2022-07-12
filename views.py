@@ -41,4 +41,4 @@ def admin_redirect():
 @my_view.route('/js')
 @my_view.route('/home')
 def index_redirect():
-    return redirect(url_for("my_view.index"))            
+    return redirect(url_for("my_view.index"))          
